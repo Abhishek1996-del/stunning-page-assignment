@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sora', sans-serif;
+    height: 90vh;
+}
+
+.header {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-img {
+    width: 130px;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.navbar li a {
+    cursor: pointer;
+    transition: color 0.3s;
+    color: #FE5D20;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.navbar li a:hover {
+    color: #FE5D20;
+    border-bottom: 3px solid #8071D0;
+    padding-top: 5px;
+}
+
+.navbar li a.active {
+    color: #FE5D20;
+    border-bottom: 3px solid #8071D0;
+}
+
+.btn {
+    padding: 15px;
+    background-color: #FFD8DB;
+    color: #A389CC;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Main Section CSS */
+.wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 30px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 100px;
+}
+
+.heading {
+    display: flex;
+    flex-wrap: nowrap;
+    float: center;
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.peragraph {
+    padding: 10px 0px;
+}
+
+.image {
+    width: 50%;
+    display: flex;
+}
+
+.landing-img {
+    width: 600px;
+    height: 500px;
+}
+
+.btn-two {
+    text-align: center;
+    padding: 0px 25px;
+    margin-right: 20px;
+    background-color: #5243C0;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-img {
+    display: flex;
+}
+
+.arrow-down {
+    margin-left: 100px;
+}
+
+.card-section {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.card {
+    display: flex;
+    width: 300px;
+    list-style: none;
+    margin: 5px 0px;
+    border: #0c0909;
+    border-radius: 10px;
+    background-color: rgb(239 239 239);
+    padding: 10px 10px;
+    position: relative;
+
+}
+
+.card:hover {
+    background-color: #ffffff;
+    box-shadow: 5px 5px#a7a5a5;
+
+    .tick-img-blue {
+        display: inline;
+    }
+}
+
+.tick-img-blue {
+    position: absolute;
+    left: 10px;
+    top: 9px;
+    display: none;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.tick-img,
+.user-img {
+    height: 30px;
+}
+
+.list-content {
+    padding-right: 35px;
+    font-weight: 600;
+    padding-left: 12px;
+    margin-top: 8px;
+    font-size: 12px;
+    width: 100px;
+}
+
+.user {
+    display: flex;
+}
+
+.user-img {
+    text-align: center;
+}
+
+.list-date {
+    color: #636363;
+    padding-left: 20px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.list-btn {
+    padding-top: 7px;
+    margin-left: 7px;
+}
+
+.dot {
+    height: 10px;
+    width: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.card-dmm {
+    background-color: #FED7DA;
+}
+
+.card-blur {
+    background-color: #FD6534;
+}
+
+.card-illustrator {
+    background-color: #9ED095;
+}
+
+.card-refund {
+    background-color: #FFE4A0;
+}
+
+.blue-tick {
+    display: flex;
+}
